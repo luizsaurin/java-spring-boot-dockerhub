@@ -12,9 +12,9 @@
 	</parent>
 	
 	<groupId>com.example</groupId>
-	<artifactId>githubactions</artifactId>
+	<artifactId>dockerhubwithgithubactions</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>githubactions</name>
+	<name>dockerhubwithgithubactions</name>
 	<description>Demo project for Spring Boot</description>
 	
 	<properties>
