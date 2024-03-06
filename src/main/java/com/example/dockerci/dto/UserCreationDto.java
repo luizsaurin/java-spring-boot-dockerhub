@@ -1,4 +1,4 @@
-package com.example.githubactions.dto;
+package com.example.dockerci.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

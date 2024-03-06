@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "987778fa-5b1b-4a3e-8d1a-a0ef789c4afd",
-		"name": "dockerhub + github actions",
+		"name": "dockerhub-ci",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "13895087"
 	},
