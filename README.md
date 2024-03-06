@@ -51,7 +51,7 @@ You can create a script from scratch, or use an existing one. In my case, I used
 
 The script developed for this project was divided into the following steps:
 
-1. Trigger rule (update 'main' branch via push or pull_request)
+1. Trigger rule (update 'main' branch via push)
 2. Operating system used for the jobs
 3. Github actions version (v3)
 4. Docker Login (using repository secrets)
