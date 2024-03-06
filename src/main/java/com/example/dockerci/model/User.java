@@ -1,9 +1,9 @@
-package com.example.githubactions.model;
+package com.example.dockerci.model;
 
 import java.io.Serializable;
 
-import com.example.githubactions.dto.UserCreationDto;
-import com.example.githubactions.dto.UserUpdateDto;
+import com.example.dockerci.dto.UserCreationDto;
+import com.example.dockerci.dto.UserUpdateDto;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

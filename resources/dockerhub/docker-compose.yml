@@ -17,7 +17,7 @@ services:
       - spring-boot-network
   spring-boot-api:
     container_name: spring-boot-api
-    image: bladerunner9040/spring-boot-api-with-dockerhub-githubactions
+    image: bladerunner9040/spring-boot-api-dockerhub-ci
     restart: always
     environment:
       TZ: America/Sao_Paulo

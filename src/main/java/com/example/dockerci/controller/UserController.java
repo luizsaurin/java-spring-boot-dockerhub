@@ -1,4 +1,4 @@
-package com.example.githubactions.controller;
+package com.example.dockerci.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.example.githubactions.dto.UserCreationDto;
-import com.example.githubactions.dto.UserUpdateDto;
-import com.example.githubactions.service.UserService;
+import com.example.dockerci.dto.UserCreationDto;
+import com.example.dockerci.dto.UserUpdateDto;
+import com.example.dockerci.service.UserService;
 
 import jakarta.validation.Valid;
 

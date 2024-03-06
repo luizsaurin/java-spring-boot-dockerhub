@@ -1,4 +1,4 @@
-package com.example.githubactions.dto;
+package com.example.dockerci.dto;
 
 public record UserUpdateDto(
 	String firstName,

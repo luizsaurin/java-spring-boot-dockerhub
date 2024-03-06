@@ -1,6 +1,6 @@
-package com.example.githubactions.dto;
+package com.example.dockerci.dto;
 
-import com.example.githubactions.model.User;
+import com.example.dockerci.model.User;
 
 public record UserDetailsDto(
 	Long id,

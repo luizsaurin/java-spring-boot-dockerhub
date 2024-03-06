@@ -1,4 +1,4 @@
-package com.example.githubactions.service;
+package com.example.dockerci.service;
 
 import java.net.URI;
 import java.util.Optional;
@@ -9,11 +9,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.example.githubactions.dto.UserCreationDto;
-import com.example.githubactions.dto.UserDetailsDto;
-import com.example.githubactions.dto.UserUpdateDto;
-import com.example.githubactions.model.User;
-import com.example.githubactions.repository.UserRepository;
+import com.example.dockerci.dto.UserCreationDto;
+import com.example.dockerci.dto.UserDetailsDto;
+import com.example.dockerci.dto.UserUpdateDto;
+import com.example.dockerci.model.User;
+import com.example.dockerci.repository.UserRepository;
 
 @Service
 public class UserService {
