@@ -40,6 +40,6 @@ jobs:
 
     - name: Push to Docker Hub Container Registry
       run: |
-        docker tag ${{secrets.DOCKER_USERNAME}}/spring-boot-api-with-dockerhub-githubactions:latest ${{secrets.DOCKER_USERNAME}}/spring-boot-api-with-dockerhub-githubactions:${{github.run_id}}
-        docker push ${{secrets.DOCKER_USERNAME}}/spring-boot-api-with-dockerhub-githubactions:${{github.run_id}}
-        docker push ${{secrets.DOCKER_USERNAME}}/spring-boot-api-with-dockerhub-githubactions:latest
+        docker tag ${{secrets.DOCKER_USERNAME}}/spring-boot-api-dockerhub-ci:latest ${{secrets.DOCKER_USERNAME}}/spring-boot-api-dockerhub-ci:${{github.run_id}}
+        docker push ${{secrets.DOCKER_USERNAME}}/spring-boot-api-dockerhub-ci:${{github.run_id}}
+        docker push ${{secrets.DOCKER_USERNAME}}/spring-boot-api-dockerhub-ci:latest
