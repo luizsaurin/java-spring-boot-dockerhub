@@ -68,7 +68,7 @@ By accessing the Actions page, you can follow each step of the script execution.
 
 ### Testing the generated image
 
-To run published images, use docker-compose.yml from the resources/dockerhub directory. Unlike the docker-compose file at the project root, this one does not execute the 'build' command. It will just fetch the published image from the Docker Hub repository and run it on your machine.
+To run published images, use docker-compose.yml from the resources/dockerhub directory. Unlike the docker-compose file at the project root, this one does not execute the 'build' command. It will just fetch the published image from the [Docker Hub repository](https://hub.docker.com/repository/docker/bladerunner9040/spring-boot-api-dockerhub-ci/general) and run it on your machine.
 
 &nbsp;
 
